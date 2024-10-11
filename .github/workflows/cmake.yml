@@ -23,7 +23,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        GP2040_BOARDCONFIG: [16WASDMXSouthpawnPassthrough]
+        GP2040_BOARDCONFIG: [16WASDMXSouthpawnPassthrough,WASDKailhMXPassthrough]
 
     steps:
     #Global Setup
